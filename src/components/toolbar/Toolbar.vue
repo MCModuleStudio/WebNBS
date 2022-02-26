@@ -124,14 +124,6 @@ export default {
       this.state.options.loop = !this.state.options.loop;
     },
     /**
-     * Loads a file from a "change" event on a file input
-     */
-    loadFile(e) {
-      this.pause();
-      const file = e.target.files[0];
-      state.loadFile(file);
-    },
-    /**
      * Click button event. Let moblie phone playable.
      */
     openFile() {

@@ -24,11 +24,11 @@ export class Language {
 						for(let key of Object.keys(json)) 
 							this.lang[key] = json[key]
 						resolve()
-					},reject
+					},reject)
 				},reject)
 			} catch(e) {
 				reject(e)
-				console.log("Faild to loading language.")
+				console.log("Failed to load language.")
 				console.log(e)
 			}
 		})

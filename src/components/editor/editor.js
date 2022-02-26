@@ -97,13 +97,16 @@ export class SongEditor {
    * Sets a note in a song
    */
   setNote(layer, tick, key, instrument) {
-    return this.getLayer(layer).setNote(tick, key, instrument, 100, 100, 0);
+    if(this.song.paused)
+      return this.getLayer(layer).setNote(tick, key, instrument, 100, 100, 0);
   }
 
   /**
    * Deletes a note of a song
    */
   deleteNote(layer, tick) {
+    if(!this.song.paused)
+      return;
     this.modified = true;
     this.getLayer(layer).deleteNote(tick);
   }
