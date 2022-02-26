@@ -4,12 +4,13 @@
 
 WebNBS is a Vue app using vue-cli. The entry point is src/main.js.
 
+This is a fork of <a href="https://github.com/GarboMuffin/nbsplayer">GarboMuffin/nbsplayer</a>.
 ## Project Setup
 
 ### Cloning
 
 ```bash
-git clone https://github.com/mckuhei/WebNBS
+git clone https://github.com/McModuleStudio/WebNBS
 ```
 
 ### Installing dependencies
