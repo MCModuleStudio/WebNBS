@@ -1,0 +1,13 @@
+{
+	"dismiss": "关闭",
+	"close": "关闭",
+	"welcome.load": "加载一个音乐",
+	"welcome.new": "创建一个音乐",
+	"detail.author": "作者：",
+	"detail.originalAuthor": "原作者：",
+	"settings": "设置",
+	"settings.language": "语言： ",
+	"settings.keyOffset": "按键偏移：",
+	"settings.coloredBlock": "彩色音符盒",
+	"settings.smallIcon": "显示音色图标"
+}

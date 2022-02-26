@@ -1,0 +1,13 @@
+{
+	"dismiss": "Dismiss",
+	"close": "Close",
+	"welcome.load": "Load a song",
+	"welcome.new": "Create a new song",
+	"detail.author": "Created by ",
+	"detail.originalAuthor": "Originally created by ",
+	"settings": "Settings",
+	"settings.language": "Language: ",
+	"settings.keyOffset": "Key offset: ",
+	"settings.coloredBlock": "Use colored note blocks.",
+	"settings.smallIcon": "Show instrument icon."
+}
