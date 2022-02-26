@@ -41,12 +41,6 @@
       <img class="button-image" src="@/assets/toolbar/settings.svg" alt="Settings">
     </a>
 
-    <a title="Volume" class="volume button">
-      <img class="button-image" src="@/assets/toolbar/volume.svg" alt="Volume">
-      <input type="range" name="volume" v-model.number="state.options.volume" min="0" max="1" step="0.01">
-      <span class="volume-amount">{{ formattedVolume }}%</span>
-    </a>
-
     <div class="separator"></div>
 
     <instrument-button
@@ -54,6 +48,11 @@
       :key="instrument.id"
       :instrument="instrument"
       :editor="state.editor"></instrument-button>
+    <a title="Volume" class="volume button">
+      <img class="button-image" src="@/assets/toolbar/volume.svg" alt="Volume">
+      <input type="range" name="volume" v-model.number="state.options.volume" min="0" max="1" step="0.01">
+      <span class="volume-amount">{{ formattedVolume }}%</span>
+    </a>
   </div>
 </template>
 
